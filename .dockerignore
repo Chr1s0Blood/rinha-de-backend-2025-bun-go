@@ -1,0 +1,4 @@
+rinha.db
+rinha.db-shm
+rinha.db-wal
+sqlite_writer_go

@@ -1,0 +1,28 @@
+{
+  "name": "rinha-de-backend-2025",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.js",
+    "dev": "bun src/index.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.10",
+    "@nats-io/transport-node": "^3.1.0",
+    "@sinclair/typebox": "^0.34.37",
+    "axios": "^1.10.0",
+    "ioredis": "^5.6.1",
+    "json-accelerator": "^0.1.7",
+    "lmdb": "^3.4.1",
+    "mongodb": "^6.17.0",
+    "nats": "^2.29.3",
+    "undici": "^7.11.0"
+  }
+}
